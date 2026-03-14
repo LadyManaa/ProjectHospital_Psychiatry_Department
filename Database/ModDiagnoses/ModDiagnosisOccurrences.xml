@@ -1,0 +1,38 @@
+<Database>
+	<!-- Psyciatry Mod by iris -->
+    <GameDBDiagnosisOccurrence ID="OCCURRENCE_PSYC_COMMON">
+        <OccurrenceRate>100</OccurrenceRate>
+    </GameDBDiagnosisOccurrence>
+    
+    <GameDBDiagnosisOccurrence ID="OCCURRENCE_PSYC_UNCOMMON">
+        <OccurrenceRate>50</OccurrenceRate>
+    </GameDBDiagnosisOccurrence>
+	
+	<GameDBDiagnosisOccurrence ID="OCCURRENCE_PSYC_UNLIKELY">
+        <OccurrenceRate>33</OccurrenceRate>
+    </GameDBDiagnosisOccurrence>
+    
+    <GameDBDiagnosisOccurrence ID="OCCURRENCE_PSYC_RARE">
+        <OccurrenceRate>25</OccurrenceRate>
+    </GameDBDiagnosisOccurrence>
+	
+	<GameDBDiagnosisOccurrence ID="OCCURRENCE_PSYC_PRETTYRARE">
+        <OccurrenceRate>15</OccurrenceRate>
+    </GameDBDiagnosisOccurrence>
+	
+	<GameDBDiagnosisOccurrence ID="OCCURRENCE_PSYC_VERYRARE">
+		<OccurrenceRate>10</OccurrenceRate>
+	</GameDBDiagnosisOccurrence>
+	  
+	<GameDBDiagnosisOccurrence ID="OCCURRENCE_PSYC_ULTRARARE">
+		<OccurrenceRate>5</OccurrenceRate>
+	</GameDBDiagnosisOccurrence>
+	
+	<GameDBDiagnosisOccurrence ID="OCCURRENCE_PSYC_UNIQUE">
+		<OccurrenceRate>2</OccurrenceRate>
+	</GameDBDiagnosisOccurrence>
+	
+	<GameDBDiagnosisOccurrence ID="OCCURRENCE_PSYC_ULTRAUNIQUE">
+		<OccurrenceRate>1</OccurrenceRate>
+	</GameDBDiagnosisOccurrence>
+</Database>

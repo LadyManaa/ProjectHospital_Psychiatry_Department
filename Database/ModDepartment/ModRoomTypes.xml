@@ -1,0 +1,282 @@
+<Database>
+	<!-- Psyciatry Mod by iris -->
+			<!--Clinic-->
+	<GameDBRoomType ID="ROOM_TYPE_PSYC_OFFICE">
+		<AbbreviationLocID>ROOM_TYPE_PSYC_OFFICE_DESCRIPTION</AbbreviationLocID>
+		<TextureID>384</TextureID>
+		<IconIndex>800</IconIndex>
+		<AccessRights>PATIENT_PROCEDURE</AccessRights>
+
+		<RequiredEquipment>
+			<GameDBRequiredEquipment>
+				<Tag>ui_pc</Tag>
+				<MinCount>1</MinCount>
+			</GameDBRequiredEquipment>
+
+			<GameDBRequiredEquipment>
+				<Tag>ui_print</Tag>
+				<MinCount>1</MinCount>
+			</GameDBRequiredEquipment>
+
+			<GameDBRequiredEquipment>
+				<Tag>ui_cabinets_equipment</Tag>
+				<MinCount>1</MinCount>
+			</GameDBRequiredEquipment>
+
+			<GameDBRequiredEquipment>
+				<Tag>ui_clean_hands</Tag>
+				<MinCount>1</MinCount>
+			</GameDBRequiredEquipment>
+
+			<GameDBRequiredEquipment>
+				<Tag>ui_biohazard_bin</Tag>
+				<MinCount>1</MinCount>
+			</GameDBRequiredEquipment>
+
+			<GameDBRequiredEquipment>
+				<Tag>ui_office_desk</Tag>
+				<MinCount>1</MinCount>
+			</GameDBRequiredEquipment>
+
+			<GameDBRequiredEquipment>
+				<Tag>ui_chair_office</Tag>
+				<MinCount>1</MinCount>
+			</GameDBRequiredEquipment>
+
+			<GameDBRequiredEquipment>
+				<Tag>ui_chair_def</Tag>
+				<MinCount>1</MinCount>
+			</GameDBRequiredEquipment>
+		</RequiredEquipment>
+
+
+		<AcceptsOutpatients>true</AcceptsOutpatients>
+		<NoNightShift>false</NoNightShift>
+
+		<BuildingModeFilters>
+			<Tag>ui_office_desk</Tag>
+			<Tag>ui_chair_office</Tag>
+			<Tag>ui_mobile_cabinet</Tag>
+			<Tag>ui_cabinets</Tag>
+			<Tag>ui_bookcase</Tag>
+			<Tag>ui_card_file</Tag>
+			<Tag>ui_chair_def</Tag>
+		</BuildingModeFilters>
+
+		<Tags>
+			<Tag>doctor_workspace</Tag>
+			<Tag>intern_workspace</Tag>
+			<Tag>small_equipment</Tag>
+			<Tag>examinations_no_equipment</Tag>
+			<Tag>examinations_basic_equipment</Tag>
+			<Tag>any_outpatient_office</Tag>
+			<Tag>any_office</Tag>
+			<Tag>emergency_doctors_office</Tag>
+			<Tag>receipt</Tag>
+			<Tag>any_office</Tag>
+			<Tag>psyc_office</Tag>
+		</Tags>
+
+		<RequiredSkill>SKILL_DOC_SPEC_PSYC</RequiredSkill>
+		<MinWidth>4</MinWidth>
+		<MinHeight>4</MinHeight>
+		<StatisticsMultiplier>1.75</StatisticsMultiplier>
+
+	</GameDBRoomType>
+
+		<!--Hospitalization-->
+
+	<GameDBRoomType ID="ROOM_TYPE_INPATIENT_PSYC_OFFICE">
+		<AbbreviationLocID>ROOM_TYPE_INPATIENT_PLAS_OFFICE_DESC</AbbreviationLocID>
+		<TextureID>398</TextureID>
+		<IconIndex>828</IconIndex>
+		<AccessRights>PATIENT_PROCEDURE</AccessRights>
+
+		<RequiredEquipment>
+			<GameDBRequiredEquipment>
+				<Tag>ui_cabinets_equipment</Tag>
+				<MinCount>1</MinCount>
+			</GameDBRequiredEquipment>
+			<GameDBRequiredEquipment>
+				<Tag>ui_clean_hands</Tag>
+				<MinCount>1</MinCount>
+			</GameDBRequiredEquipment>
+			<GameDBRequiredEquipment>
+				<Tag>ui_biohazard_bin</Tag>
+				<MinCount>1</MinCount>
+			</GameDBRequiredEquipment>
+			<GameDBRequiredEquipment>
+				<Tag>whiteboard</Tag>
+				<MinCount>0</MinCount>
+			</GameDBRequiredEquipment>
+			<GameDBRequiredEquipment>
+				<Tag>ui_pc</Tag>
+				<MinCount>1</MinCount>
+			</GameDBRequiredEquipment>
+
+			<GameDBRequiredEquipment>
+				<Tag>ui_print</Tag>
+				<MinCount>1</MinCount>
+			</GameDBRequiredEquipment>
+
+			<GameDBRequiredEquipment>
+				<Tag>ui_office_desk</Tag>
+				<MinCount>1</MinCount>
+			</GameDBRequiredEquipment>
+
+			<GameDBRequiredEquipment>
+				<Tag>ui_chair_office</Tag>
+				<MinCount>1</MinCount>
+			</GameDBRequiredEquipment>
+
+			<GameDBRequiredEquipment>
+				<Tag>ui_chair_def</Tag>
+				<MinCount>1</MinCount>
+			</GameDBRequiredEquipment>
+		</RequiredEquipment>
+
+		<LockedByDefault>false</LockedByDefault>
+
+		<BuildingModeFilters>
+			<Tag>ui_mobile_cabinet</Tag>
+			<Tag>ui_cabinets</Tag>
+			<Tag>ui_bookcase</Tag>
+			<Tag>ui_card_file</Tag>
+			<Tag>ui_chair_def</Tag>
+			<Tag>ui_office_desk</Tag>
+			<Tag>ui_chair_office</Tag>
+		</BuildingModeFilters>
+
+		<Tags>
+			<Tag>examinations_no_equipment</Tag>
+			<Tag>examinations_basic_equipment</Tag>
+			<Tag>specialized_office</Tag>
+			<Tag>plas_office</Tag>
+			<Tag>any_inpatient_office</Tag>
+			<Tag>any_office</Tag>
+			<Tag>emergency_doctors_office</Tag>
+			<Tag>psyc_inpatient_office</Tag>
+			<Tag>receipt</Tag>
+		</Tags>
+
+		<MinWidth>4</MinWidth>
+		<MinHeight>4</MinHeight>
+
+		<StatisticsMultiplier>1.2</StatisticsMultiplier>
+	</GameDBRoomType>
+
+
+	<GameDBRoomType ID="DLC_ROOM_TYPE_CAFETERIA">
+		<AbbreviationLocID>DLC_ROOM_TYPE_CAFETERIA_DESCRIPTION</AbbreviationLocID>
+		<TextureID>353</TextureID>
+		<IconIndex>2540</IconIndex>
+		<AccessRights>PATIENT</AccessRights>
+		<RequiredEquipment>
+			<GameDBRequiredEquipment>
+				<Tag>ui_meal_counter</Tag>
+				<MinCount>2</MinCount>
+			</GameDBRequiredEquipment>
+			<GameDBRequiredEquipment>
+				<Tag>ui_chair_def</Tag>
+				<MinCount>2</MinCount>
+			</GameDBRequiredEquipment>
+			<GameDBRequiredEquipment>
+				<Tag>ui_dining_tables</Tag>
+				<MinCount>1</MinCount>
+			</GameDBRequiredEquipment>
+			<GameDBRequiredEquipment>
+				<Tag>ui_sink_def</Tag>
+				<MinCount>0</MinCount>
+			</GameDBRequiredEquipment>
+			<GameDBRequiredEquipment>
+				<Tag>ui_coffee_machine</Tag>
+				<MinCount>0</MinCount>
+			</GameDBRequiredEquipment>
+			<GameDBRequiredEquipment>
+				<Tag>ui_cafeteria_board</Tag>
+				<MinCount>0</MinCount>
+			</GameDBRequiredEquipment>
+			<GameDBRequiredEquipment>
+				<Tag>ui_donut_snack</Tag>
+				<MinCount>0</MinCount>
+			</GameDBRequiredEquipment>
+			<GameDBRequiredEquipment>
+				<Tag>ui_fruit_snack</Tag>
+				<MinCount>0</MinCount>
+			</GameDBRequiredEquipment>
+			<GameDBRequiredEquipment>
+				<Tag>ui_cafeteria_counter</Tag>
+				<MinCount>0</MinCount>
+			</GameDBRequiredEquipment>
+			<GameDBRequiredEquipment>
+				<Tag>ui_cutlery</Tag>
+				<MinCount>0</MinCount>
+			</GameDBRequiredEquipment>
+		</RequiredEquipment>
+		<BuildingModeFilters>
+			<Tag>ui_cabinets</Tag>
+			<Tag>ui_refreshments</Tag>
+			<Tag>ui_coffee_table</Tag>
+			<Tag>ui_tv</Tag>
+			<Tag>ui_sofa</Tag>
+			<Tag>ui_cafeteria</Tag>
+		</BuildingModeFilters>
+		<Tags>
+			<Tag>cross_janitor_cart_tile_selection</Tag>
+			<Tag>lunch_room</Tag>
+			<Tag>cafeteria</Tag>
+			<Tag>dining_hall</Tag>
+		</Tags>
+		<MinWidth>4</MinWidth>
+		<MinHeight>2</MinHeight>
+	</GameDBRoomType>
+
+	<GameDBRoomType ID="ROOM_TYPE_INPATIENT_BEDROOM">
+		<AbbreviationLocID>ROOM_TYPE_INPATIENT_BEDROOM_DESCRIPTION</AbbreviationLocID>
+		<TextureID>370</TextureID>
+		<IconIndex>836</IconIndex>
+		<AccessRights>PATIENT</AccessRights>
+		<RequiredEquipment>
+			<GameDBRequiredEquipment>
+				<Tag>ui_beds</Tag>
+				<MinCount>1</MinCount>
+				<MaxCount>1</MaxCount>
+			</GameDBRequiredEquipment>
+			<GameDBRequiredEquipment>
+				<Tag>ui_night_stand</Tag>
+				<MinCount>1</MinCount>
+			</GameDBRequiredEquipment>
+			<GameDBRequiredEquipment>
+				<Tag>ui_defibrillator</Tag>
+				<MinCount>1</MinCount>
+			</GameDBRequiredEquipment>
+			<GameDBRequiredEquipment>
+				<Tag>ui_bedsocket</Tag>
+				<MinCount>0</MinCount>
+			</GameDBRequiredEquipment>
+		</RequiredEquipment>
+		<LockedByDefault>false</LockedByDefault>
+		<BuildingModeFilters>
+			<Tag>ui_cabinets</Tag>
+			<Tag>ui_chair_def</Tag>
+			<Tag>ui_bookcase</Tag>
+		</BuildingModeFilters>
+		<Tags>
+			<Tag>patient_lunch</Tag>
+			<Tag>patient_medicine</Tag>
+			<Tag>night_stand</Tag>
+			<Tag>hospitalization</Tag>
+			<Tag>hospitalization_normal</Tag>
+			<!--  for showing patient counts in low/high in management  -->
+			<Tag>ward</Tag>
+			<Tag>receipt</Tag>
+		</Tags>
+		<MinWidth>3</MinWidth>
+		<MinHeight>4</MinHeight>
+	</GameDBRoomType>
+
+
+<!--Quiet Rooms? 
+	idk how to make that happen, but idk how considering the games awy to do things.-->
+
+</Database>

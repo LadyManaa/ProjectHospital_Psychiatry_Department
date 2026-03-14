@@ -1,0 +1,51 @@
+<Database>
+	<!-- Psyciatry Mod by iris -->
+	<!-- TEMPLATE DIAGNOSIS 
+	<GameDBMedicalCondition ID="DIA_JM_AAAA">
+	<AbbreviationLocID>DIA_JM_AAAA_DESCRIPTION</AbbreviationLocID>
+	<Duration>0</Duration>
+	<OccurrenceRef>OCCURRENCE_OR_UNCOMMON</OccurrenceRef>
+	<Symptoms>
+        <GameDBSymptomRules>
+            <ProbabilityPercent>100</ProbabilityPercent>
+            <GameDBSymptomRef>MAINSYMPTOM</GameDBSymptomRef>
+        </GameDBSymptomRules>
+		
+		<GameDBSymptomRules>
+            <ProbabilityPercent>80</ProbabilityPercent>
+            <GameDBSymptomRef>SUBSYMPTOM</GameDBSymptomRef>
+        </GameDBSymptomRules>
+		
+		<GameDBSymptomRules>
+            <ProbabilityPercent>80</ProbabilityPercent>
+            <GameDBSymptomRef>SUBSYMPTOM</GameDBSymptomRef>
+        </GameDBSymptomRules>
+    </Symptoms>
+	
+    <Examinations>
+        <ExaminationRef>EXM_INTERVIEW</ExaminationRef>
+		<ExaminationRef>EXM_PHYSICAL_AND_VISUAL_EXAMINATION</ExaminationRef>
+		<ExaminationRef>EXM_DIFFERENTIAL_DIAGNOSIS</ExaminationRef>
+    </Examinations>
+		
+    <Treatments>
+		<TreatmentRef>TRT_HOSPITALIZATION_NORMAL</TreatmentRef>
+    </Treatments>
+		
+    <DepartmentRef>DPT_OTORHINOLARYNGOLOGY</DepartmentRef>
+    <InsurancePayment>0</InsurancePayment>
+		
+	<IconIndex>1</IconIndex>
+	
+	<CustomIconBigAssetRef>ASSET_OR_DIA_ICON001_LARGE</CustomIconBigAssetRef>
+    <CustomIconSmallAssetRef>ASSET_OR_DIA_ICON001_SMALL</CustomIconSmallAssetRef>
+		
+    <Tags>
+        <Tag>disease</Tag>
+    </Tags>
+    </GameDBMedicalCondition>
+	^^^ STOP COPY HERE -->
+	
+
+	
+</Database>
