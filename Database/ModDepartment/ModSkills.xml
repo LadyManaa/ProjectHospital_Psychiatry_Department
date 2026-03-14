@@ -1,29 +1,34 @@
 <Database>
 	<!-- Psyciatry Mod by iris -->
-<GameDBSkill ID="SKILL_DOC_SPEC_PSYC">
-	<AbbreviationLocID>SKILL_DOC_SPEC_PSYC_DESCR</AbbreviationLocID>
-	<ParentSkill>SKILL_DOC_QUALIF_GENERAL_MEDICINE</ParentSkill>
+	<GameDBSkill ID="SKILL_DOC_SPEC_PSYC">
+		<AbbreviationLocID>SKILL_DOC_SPEC_PSYC_DESCR</AbbreviationLocID>
+		<ParentSkill>SKILL_DOC_QUALIF_GENERAL_MEDICINE</ParentSkill>
 
-	<IconIndex>403</IconIndex>
-<!--
+		<IconIndex>403</IconIndex>
+		<!--
 	<CustomIconAssetRef>ASSET_MOD_ICON_PLAS</CustomIconAssetRef>
 	<CustomIconLightBackgroundAssetRef>ASSET_MOD_ICON_PLAS_DARK</CustomIconLightBackgroundAssetRef>
 -->
-	<ExtraLevelingPercent>100</ExtraLevelingPercent>
-</GameDBSkill>
+		<ExtraLevelingPercent>100</ExtraLevelingPercent>
+	</GameDBSkill>
 
-<GameDBSkill ID="SKILL_DOC_SPEC_PSYC_SURGERY">
-	<AbbreviationLocID>SKILL_DOC_SPEC_PSYC_SURGERY_DESCR</AbbreviationLocID>
-	<ParentSkill>SKILL_DOC_QUALIF_GENERAL_MEDICINE</ParentSkill>
+	<GameDBSkill ID="SKILL_DOC_SPEC_PSYC_SURGERY">
+		<AbbreviationLocID>SKILL_DOC_SPEC_PSYC_SURGERY_DESCR</AbbreviationLocID>
+		<ParentSkill>SKILL_DOC_QUALIF_GENERAL_MEDICINE</ParentSkill>
 
-	<IconIndex>2388</IconIndex>
+		<IconIndex>2388</IconIndex>
 
-	<ExtraLevelingPercent>50</ExtraLevelingPercent>
-</GameDBSkill>
+		<ExtraLevelingPercent>50</ExtraLevelingPercent>
+	</GameDBSkill>
 
-<GameDBSkill ID="SKILL_NURSE_SPEC_PSYC">
-<AbbreviationLocID>SKILL_NURSE_SPEC_PSYC_DESCR</AbbreviationLocID>
-<IconIndex>2364</IconIndex>
-</GameDBSkill>
+	<GameDBSkill ID="SKILL_NURSE_SPEC_PSYC">
+		<AbbreviationLocID>SKILL_NURSE_SPEC_PSYC_DESCR</AbbreviationLocID>
+		<IconIndex>2364</IconIndex>
+	</GameDBSkill>
+
+	<GameDBSkill ID="SKILL_NURSE_SPEC_THERAP">
+		<AbbreviationLocID>SKILL_NURSE_SPEC_PSYC_DESCR</AbbreviationLocID>
+		<IconIndex>2364</IconIndex>
+	</GameDBSkill>
 
 </Database>
