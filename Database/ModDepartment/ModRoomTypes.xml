@@ -1,6 +1,6 @@
 <Database>
 	<!-- Psyciatry Mod by iris -->
-			<!--Clinic-->
+	<!--Clinic-->
 	<GameDBRoomType ID="ROOM_TYPE_PSYC_OFFICE">
 		<AbbreviationLocID>ROOM_TYPE_PSYC_OFFICE_DESCRIPTION</AbbreviationLocID>
 		<TextureID>384</TextureID>
@@ -84,7 +84,71 @@
 
 	</GameDBRoomType>
 
-		<!--Hospitalization-->
+	<GameDBRoomType ID="ROOM_TYPE_THEP_OFFICE">
+		<AbbreviationLocID>ROOM_TYPE_THEP_OFFICE_DESCRIPTION</AbbreviationLocID>
+		<TextureID>384</TextureID>
+		<IconIndex>800</IconIndex>
+		<AccessRights>PATIENT_PROCEDURE</AccessRights>
+
+		<RequiredEquipment>
+			<GameDBRequiredEquipment>
+				<Tag>ui_pc</Tag>
+				<MinCount>1</MinCount>
+			</GameDBRequiredEquipment>
+
+			<GameDBRequiredEquipment>
+				<Tag>ui_print</Tag>
+				<MinCount>1</MinCount>
+			</GameDBRequiredEquipment>
+
+			<GameDBRequiredEquipment>
+				<Tag>ui_office_desk</Tag>
+				<MinCount>1</MinCount>
+			</GameDBRequiredEquipment>
+
+			<GameDBRequiredEquipment>
+				<Tag>ui_chair_office</Tag>
+				<MinCount>1</MinCount>
+			</GameDBRequiredEquipment>
+
+			<GameDBRequiredEquipment>
+				<Tag>ui_chair_def</Tag>
+				<MinCount>1</MinCount>
+			</GameDBRequiredEquipment>
+		</RequiredEquipment>
+
+
+		<AcceptsOutpatients>true</AcceptsOutpatients>
+		<NoNightShift>false</NoNightShift>
+
+		<BuildingModeFilters>
+			<Tag>ui_office_desk</Tag>
+			<Tag>ui_chair_office</Tag>
+			<Tag>ui_cabinets</Tag>
+			<Tag>ui_bookcase</Tag>
+			<Tag>ui_card_file</Tag>
+			<Tag>ui_chair_def</Tag>
+		</BuildingModeFilters>
+
+		<Tags>
+			<Tag>doctor_workspace</Tag>
+			<Tag>intern_workspace</Tag>
+			<Tag>any_outpatient_office</Tag>
+			<Tag>any_office</Tag>
+			<Tag>emergency_doctors_office</Tag>
+			<Tag>receipt</Tag>
+			<Tag>any_office</Tag>
+			<Tag>thep_office</Tag>
+		</Tags>
+
+		<RequiredSkill>SKILL_DOC_SPEC_PSYC</RequiredSkill>
+		<MinWidth>3</MinWidth>
+		<MinHeight>4</MinHeight>
+		<StatisticsMultiplier>1.75</StatisticsMultiplier>
+
+	</GameDBRoomType>
+
+	<!--Hospitalization-->
 
 	<GameDBRoomType ID="ROOM_TYPE_INPATIENT_PSYC_OFFICE">
 		<AbbreviationLocID>ROOM_TYPE_INPATIENT_PLAS_OFFICE_DESC</AbbreviationLocID>
@@ -276,7 +340,7 @@
 	</GameDBRoomType>
 
 
-<!--Quiet Rooms? 
+	<!--Quiet Rooms? 
 	idk how to make that happen, but idk how considering the games awy to do things.-->
 
 </Database>
