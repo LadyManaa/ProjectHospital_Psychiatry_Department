@@ -1,6 +1,6 @@
 <Database>
     <!-- Psyciatry Mod by iris -->
-    <GameDBDepartment ID="DPT_TRAUMATOLOGY_DEPARTMENT">
+    <GameDBDepartment ID="DPT_PSYCHIATRY_DEPARTMENT">
         <LockedByDefault>false</LockedByDefault>
         <HospitalizationLockedByDefault>false</HospitalizationLockedByDefault>
         <MinDoctorLevel>2</MinDoctorLevel>
@@ -12,7 +12,7 @@
             <SkillRef>SKILL_DOC_SPEC_ANESTHESIOLOGY</SkillRef>
         </SecondDoctorSpecializations>
         <SurgerySpecialization>SKILL_DOC_SPEC_PSYC_SURGERY</SurgerySpecialization>
-
+        <IconIndex>403</IconIndex>
         <!--Clinic-->
         <RequiredRoomsClinic>
             <GameDBDepartmentRoomRequirement>
@@ -113,18 +113,14 @@
                 <ExaminationRef>EXM_INTERVIEW</ExaminationRef>
                 <ExaminationRef>EXM_PHYSICAL_AND_VISUAL_EXAMINATION</ExaminationRef>
             </PatientRounds>
-            <PrefabTag>ui_prefab_traumatology</PrefabTag>
+            <PrefabTag>ui_prefab_emergency</PrefabTag>
             <PrefabButtonIndex>5</PrefabButtonIndex>
             <PrestigeModifierStaff>1.0</PrestigeModifierStaff>
             <PrestigeModifierPatients>1.0</PrestigeModifierPatients>
             <PrestigeModifierTreated>1.0</PrestigeModifierTreated>
             <PrestigeModifierDead>1.0</PrestigeModifierDead>
-            <ForcedMobilityNormal>IMOBILE</ForcedMobilityNormal>
+            <ForcedMobilityNormal>MOBILE</ForcedMobilityNormal>
             <DisplayIndex>82</DisplayIndex>
             <DiagnosisRoleIcon>473</DiagnosisRoleIcon>
-            <!--  Not supported in mods  -->
-            <ShowInPrefabs>true</ShowInPrefabs>
-            <PrefabsTooltipId>TOOLTIP_BUILDING_PREFAB_TRAUMATOLOGY</PrefabsTooltipId>
-            <PrefabsTag>ui_prefab_traumatology</PrefabsTag>
         </GameDBDepartment>
     </Database>

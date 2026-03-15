@@ -304,7 +304,6 @@
 			<GameDBRequiredEquipment>
 				<Tag>ui_beds</Tag>
 				<MinCount>1</MinCount>
-				<MaxCount>1</MaxCount>
 			</GameDBRequiredEquipment>
 			<GameDBRequiredEquipment>
 				<Tag>ui_night_stand</Tag>
