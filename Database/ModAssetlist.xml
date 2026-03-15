@@ -1,5 +1,5 @@
 <Database>
-
+<!--
     <GameDBAsset ID="ASSET_TEX_MOD_TEST_OBJECTS">
         <Type>TEXTURE_OBJECTS</Type>
         <File>MOD_ROOT/mod_objects_big_atlas.png</File>
@@ -13,5 +13,5 @@
         <Type>TEXTURE_CUSTOM_SPRITE</Type>
         <File>MOD_ROOT/mod_icon_02_lamp.png</File>
     </GameDBAsset>
-
+-->
 </Database>

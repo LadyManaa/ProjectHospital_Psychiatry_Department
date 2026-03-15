@@ -20,7 +20,7 @@
 
 		<ExtraLevelingPercent>50</ExtraLevelingPercent>
 	</GameDBSkill>
-
+<!--
 	<GameDBSkill ID="SKILL_NURSE_SPEC_PSYC">
 		<AbbreviationLocID>SKILL_NURSE_SPEC_PSYC_DESCR</AbbreviationLocID>
 		<IconIndex>2364</IconIndex>
@@ -30,5 +30,5 @@
 		<AbbreviationLocID>SKILL_NURSE_SPEC_PSYC_DESCR</AbbreviationLocID>
 		<IconIndex>2364</IconIndex>
 	</GameDBSkill>
-
+-->
 </Database>

@@ -1,18 +1,22 @@
 <Database>
     <!-- Psyciatry Mod by iris -->
     <GameDBDepartment ID="DPT_PSYCHIATRY_DEPARTMENT">
+
         <LockedByDefault>false</LockedByDefault>
         <HospitalizationLockedByDefault>false</HospitalizationLockedByDefault>
+        
         <MinDoctorLevel>2</MinDoctorLevel>
-        <PatientGenerationWeight>1</PatientGenerationWeight>
+        <PatientGenerationWeight>30</PatientGenerationWeight>
+
         <FirstDoctorSpecialization>SKILL_DOC_SPEC_PSYC</FirstDoctorSpecialization>
+
         <SecondDoctorSpecializations>
             <SkillRef>SKILL_DOC_SPEC_ADVANCED_DIAGNOSIS</SkillRef>
             <SkillRef>SKILL_DOC_SPEC_PSYC_SURGERY</SkillRef>
             <SkillRef>SKILL_DOC_SPEC_ANESTHESIOLOGY</SkillRef>
         </SecondDoctorSpecializations>
+
         <SurgerySpecialization>SKILL_DOC_SPEC_PSYC_SURGERY</SurgerySpecialization>
-        <IconIndex>403</IconIndex>
         <!--Clinic-->
         <RequiredRoomsClinic>
             <GameDBDepartmentRoomRequirement>
@@ -60,6 +64,7 @@
             </GameDBDepartmentRoomRequirement>
         </SharedRoomsClinic>
 
+<!-- ### Hospitalisation ### -->
         <RequiredRoomsHospitalization>
             <GameDBDepartmentRoomRequirement>
                 <RoomDatabaseEntryRef>ROOM_TYPE_ON_CALL_ROOM</RoomDatabaseEntryRef>
@@ -108,12 +113,14 @@
             <MinSurgeryNurseDay>2</MinSurgeryNurseDay>
             <RecommendedUSGTechnlogist>true</RecommendedUSGTechnlogist>
             <RecommendedCardiologist>true</RecommendedCardiologist>
+            <IconIndex>403</IconIndex>
             <IconID>472</IconID>
             <PatientRounds>
                 <ExaminationRef>EXM_INTERVIEW</ExaminationRef>
                 <ExaminationRef>EXM_PHYSICAL_AND_VISUAL_EXAMINATION</ExaminationRef>
             </PatientRounds>
-            <PrefabTag>ui_prefab_emergency</PrefabTag>
+            <PrefabTag>ui_prefab_psyc</PrefabTag>
+            <PrefabsTooltipId>TOOLTIP_BUILDING_PREFAB_PSYC</PrefabsTooltipId>
             <PrefabButtonIndex>5</PrefabButtonIndex>
             <PrestigeModifierStaff>1.0</PrestigeModifierStaff>
             <PrestigeModifierPatients>1.0</PrestigeModifierPatients>
