@@ -1,0 +1,29 @@
+﻿<Database>
+    <!--  (Iris)
+	TAGS: Crisis intervention
+	DESC: Crisis intervention refers to time-limited, structured measures designed to manage acute psychological emergencies. The aim is to achieve short-term stabilisation, provide guidance and restore the ability to function. Crisis interventions form part of psychosocial emergency care and act as a bridge between acute care and ongoing therapy.
+-->
+
+    <GameDBTreatment ID="TRT_IRM_CRISIS_INT">
+        <AbbreviationLocID>TRT_IRM_CRIS_INT_DESC</AbbreviationLocID>
+        <DiscomfortLevel>High</DiscomfortLevel>
+        <Procedure>
+            <RequiredSkillsToPrescribe>
+                <SkillRef>SKILL_DOC_QUALIF_GENERAL_MEDICINE</SkillRef>
+            </RequiredSkillsToPrescribe>
+
+            <RequiredRoomTags>
+                <Tag>crisis_int</Tag>
+            </RequiredRoomTags>
+
+            <SpeechBubbleRef>BUBBLE_PLACEHOLDER</SpeechBubbleRef>
+            <DressLevel>FULL</DressLevel>
+            <DressLevelAfter>FULL</DressLevelAfter>
+            <HospitalizationLevel>NORMAL</HospitalizationLevel>
+            <DetachedDepartmentRef>DPT_PSYCHIATRY</DetachedDepartmentRef>
+        </Procedure>
+        <Cost>750</Cost>
+        <DurationHours>72</DurationHours>
+        <IconIndex>1971</IconIndex>
+    </GameDBTreatment>
+</Database>

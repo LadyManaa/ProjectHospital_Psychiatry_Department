@@ -332,6 +332,7 @@
 			<Tag>hospitalization_normal</Tag>
 			<!--  for showing patient counts in low/high in management  -->
 			<Tag>ward</Tag>
+			<Tag>crisis_int</Tag>
 		</Tags>
 		<MinWidth>3</MinWidth>
 		<MinHeight>4</MinHeight>

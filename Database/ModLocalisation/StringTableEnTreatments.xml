@@ -1,0 +1,22 @@
+﻿<Database>
+    <GameDBStringTable ID="LOC_EN_TREATMENTS">
+
+        <LanguageCode>en</LanguageCode>
+        <LanguageNameLocalized>English</LanguageNameLocalized>
+
+        <Contributors>
+            <Name>Iris</Name>
+        </Contributors>
+
+        <LocalizedStrings>
+            <GameDBLocalizedString>
+                <LocID>TRT_IRM_CRISIS_INT</LocID>
+                <Text>Crisis intervention</Text>
+            </GameDBLocalizedString>
+            <GameDBLocalizedString>
+                <LocID>TRT_IRM_CRIS_INT_DESC</LocID>
+                <Text>Crisis intervention refers to time-limited, structured measures designed to manage acute psychological emergencies. The aim is to achieve short-term stabilisation, provide guidance and restore the ability to function. Crisis interventions form part of psychosocial emergency care and act as a bridge between acute care and ongoing therapy.</Text>
+            </GameDBLocalizedString>
+        </LocalizedStrings>
+    </GameDBStringTable>
+</Database>
