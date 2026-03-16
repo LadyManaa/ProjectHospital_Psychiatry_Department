@@ -1,17 +1,22 @@
 <Database>
-<!--
-    <GameDBAsset ID="ASSET_TEX_MOD_TEST_OBJECTS">
+
+
+
+    <GameDBAsset ID="ASSET_psyc_dept_icon_0">
         <Type>TEXTURE_OBJECTS</Type>
-        <File>MOD_ROOT/mod_objects_big_atlas.png</File>
+        <File>MOD_ROOT/assets/department/psyc_dept_icon_0.png</File>
     </GameDBAsset>
 
-    <GameDBAsset ID="ASSET_TEX_MOD_TEST_ICON_TREE">
-        <Type>TEXTURE_CUSTOM_SPRITE</Type>
-        <File>MOD_ROOT/mod_icon_01_tree.png</File>
+    <GameDBAsset ID="ASSET_psyc_dept_icon_1">
+        <Type>TEXTURE_OBJECTS</Type>
+        <File>MOD_ROOT/assets/department/psyc_dept_icon_1.png</File>
     </GameDBAsset>
-    <GameDBAsset ID="ASSET_TEX_MOD_TEST_ICON_LAMP">
-        <Type>TEXTURE_CUSTOM_SPRITE</Type>
-        <File>MOD_ROOT/mod_icon_02_lamp.png</File>
+
+        <GameDBAsset ID="ASSET_psyc_dept_icon_2">
+        <Type>TEXTURE_OBJECTS</Type>
+        <File>MOD_ROOT/assets/department/psyc_dept_icon_2.png</File>
     </GameDBAsset>
--->
+
+
+
 </Database>

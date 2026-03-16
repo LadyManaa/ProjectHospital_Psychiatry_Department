@@ -21,6 +21,8 @@
 
         <SurgerySpecialization>SKILL_DOC_SPEC_PSYC_PSYC</SurgerySpecialization>
 
+         <CustomIcon_0_BigAssetRef>ASSET_TEST_DPT_ICON_0</CustomIcon_0_BigAssetRef>
+
         <!-- ### Rooms ### -->
         <!--Clinic-->
         <RequiredRoomsClinic>
