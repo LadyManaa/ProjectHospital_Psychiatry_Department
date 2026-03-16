@@ -1,6 +1,6 @@
 <Database>
-	<!-- Psyciatry Mod by iris -->
-	<!-- TEMPLATE DIAGNOSIS 
+    <!-- Psyciatry Mod by iris -->
+    <!-- TEMPLATE DIAGNOSIS 
 	<GameDBMedicalCondition ID="DIA_JM_AAAA">
 	<AbbreviationLocID>DIA_JM_AAAA_DESCRIPTION</AbbreviationLocID>
 	<Duration>0</Duration>
@@ -32,7 +32,7 @@
 		<TreatmentRef>TRT_HOSPITALIZATION_NORMAL</TreatmentRef>
     </Treatments>
 		
-    <DepartmentRef>DPT_OTORHINOLARYNGOLOGY</DepartmentRef>
+    <DepartmentRef>DPT_PSYCHIATRY</DepartmentRef>
     <InsurancePayment>0</InsurancePayment>
 		
 	<IconIndex>1</IconIndex>
@@ -45,34 +45,81 @@
     </Tags>
     </GameDBMedicalCondition>
 	^^^ STOP COPY HERE -->
-	
-<GameDBMedicalCondition ID="DIA_PLAS_C_BREAST_01_V2">
-<AbbreviationLocID>DIA_PLAS_C_BREAST_01_DESC</AbbreviationLocID>
-<Duration>0</Duration>
-<OccurrenceRef>OCCURRENCE_PSYC_VERYRARE</OccurrenceRef>
-<MatchingGenderRef>GENDER_FEMALE</MatchingGenderRef>
-<Symptoms>
-<GameDBSymptomRules>
-<ProbabilityPercent>100</ProbabilityPercent>
-<GameDBSymptomRef>SYM_PLAS_C001_V2</GameDBSymptomRef>
-</GameDBSymptomRules>
-</Symptoms>
-<Examinations>
-<ExaminationRef>EXM_INTERVIEW</ExaminationRef>
-<ExaminationRef>EXM_DIFFERENTIAL_DIAGNOSIS</ExaminationRef>
-</Examinations>
-<Treatments>
-<TreatmentRef>TRT_HOSPITALIZATION_HIGH_PRIORITY</TreatmentRef>
-<TreatmentRef>SUR_SLP_AUGMENTATION_MAMMOPLASTY</TreatmentRef>
-</Treatments>
-<DepartmentRef>DPT_PLASTICS</DepartmentRef>
-<InsurancePayment>3860</InsurancePayment>
-<IconIndex>1</IconIndex>
-<CustomIconBigAssetRef>ASSET_PLAS_DIA_ICON_001</CustomIconBigAssetRef>
-<CustomIconSmallAssetRef>ASSET_PLAS_DIA_ICON_002</CustomIconSmallAssetRef>
-<Tags>
-<Tag>disease</Tag>
-</Tags>
-</GameDBMedicalCondition>
-	
+
+    <GameDBMedicalCondition ID="DIA_PSYC_IRM_TRANS">
+        <AbbreviationLocID>DIA_JM_AAAA_DESCRIPTION</AbbreviationLocID>
+        <Duration>2</Duration>
+        <OccurrenceRef>OCCURRENCE_COMMON</OccurrenceRef>
+        <Symptoms>
+            <GameDBSymptomRules>
+                <ProbabilityPercent>100</ProbabilityPercent>
+                <DayOfFirstOccurence>0</DayOfFirstOccurence>
+                <GameDBSymptomRef>SYM_PSYC_PLACE</GameDBSymptomRef>
+            </GameDBSymptomRules>
+
+            <GameDBSymptomRules>
+                <ProbabilityPercent>99</ProbabilityPercent>
+                <DayOfFirstOccurence>0</DayOfFirstOccurence>
+                <GameDBSymptomRef>SYM_PSYC_GENDER_DYSPHORIA</GameDBSymptomRef>
+            </GameDBSymptomRules>
+        </Symptoms>
+        <Examinations>
+            <ExaminationRef>EXM_INTERVIEW</ExaminationRef>
+            <ExaminationRef>EXM_PHYSICAL_AND_VISUAL_EXAMINATION</ExaminationRef>
+            <ExaminationRef>EXM_DIFFERENTIAL_DIAGNOSIS</ExaminationRef>
+        </Examinations>
+
+        <Treatments>
+            <TreatmentRef>TRT_IRM_HRT_DRUGS</TreatmentRef>
+        </Treatments>
+
+        <DepartmentRef>DPT_PSYCHIATRY</DepartmentRef>
+        <InsurancePayment>0</InsurancePayment>
+
+        <IconIndex>1</IconIndex>
+        <Tags>
+            <Tag>disease</Tag>
+            <Tag>clinic</Tag>
+        </Tags>
+    </GameDBMedicalCondition>
+
+    <GameDBMedicalCondition ID="DIA_PSYC_IRM_SHIZO">
+        <AbbreviationLocID>DIA_PSYC_SCHIZO_DESCRIPTION</AbbreviationLocID>
+        <Duration>2</Duration>
+        <OccurrenceRef>OCCURRENCE_COMMON</OccurrenceRef>
+        <Symptoms>
+            <GameDBSymptomRules>
+                <ProbabilityPercent>100</ProbabilityPercent>
+                <DayOfFirstOccurence>0</DayOfFirstOccurence>
+                <GameDBSymptomRef>SYM_PSYC_PLACE</GameDBSymptomRef>
+            </GameDBSymptomRules>
+
+            <GameDBSymptomRules>
+                <ProbabilityPercent>99</ProbabilityPercent>
+                <DayOfFirstOccurence>0</DayOfFirstOccurence>
+                <GameDBSymptomRef>SYM_PSYC_FLAT_AFFECT</GameDBSymptomRef>
+            </GameDBSymptomRules>
+        </Symptoms>
+
+        <Examinations>
+            <ExaminationRef>EXM_INTERVIEW</ExaminationRef>
+            <ExaminationRef>EXM_PHYSICAL_AND_VISUAL_EXAMINATION</ExaminationRef>
+            <ExaminationRef>EXM_DIFFERENTIAL_DIAGNOSIS</ExaminationRef>
+        </Examinations>
+
+        <Treatments>
+            <TreatmentRef>TRT_IRM_ATP_DRUGS</TreatmentRef>
+            <TreatmentRef>TRT_IRM_MOOD_STABILIZERS_DRUGS</TreatmentRef>
+        </Treatments>
+
+        <DepartmentRef>DPT_PSYCHIATRY</DepartmentRef>
+        <InsurancePayment>0</InsurancePayment>
+
+        <IconIndex>1</IconIndex>
+        <Tags>
+            <Tag>disease</Tag>
+            <Tag>clinic</Tag>
+        </Tags>
+    </GameDBMedicalCondition>
+
 </Database>

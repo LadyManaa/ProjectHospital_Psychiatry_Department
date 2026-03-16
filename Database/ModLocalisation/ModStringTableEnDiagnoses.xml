@@ -1,0 +1,20 @@
+<Database>
+    <GameDBStringTable ID="LOC_EN_ADDON_GYNECOLOGIE_DIAGNOSES">
+        <LanguageCode>en</LanguageCode>
+        <LanguageNameLocalized>English</LanguageNameLocalized>
+        <Contributors>
+            <Name/>
+        </Contributors>
+        <LocalizedStrings>
+            <GameDBLocalizedString>
+                <LocID>DIA_PSYC_IRM_SHIZO</LocID>
+                <Text>Schizophrenia</Text>
+            </GameDBLocalizedString>
+            <GameDBLocalizedString>
+                <LocID>DIA_PSYC_IRM_TRANS</LocID>
+                <Text>Gender incongruence</Text>
+            </GameDBLocalizedString>
+
+        </LocalizedStrings>
+    </GameDBStringTable>
+</Database>

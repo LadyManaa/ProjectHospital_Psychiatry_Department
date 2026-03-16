@@ -151,7 +151,7 @@
 	<!--Hospitalization-->
 
 	<GameDBRoomType ID="ROOM_TYPE_INPATIENT_PSYC_OFFICE">
-		<AbbreviationLocID>ROOM_TYPE_INPATIENT_PLAS_OFFICE_DESC</AbbreviationLocID>
+		<AbbreviationLocID>ROOM_TYPE_INPATIENT_PSYC_OFFICE_DESC</AbbreviationLocID>
 		<TextureID>398</TextureID>
 		<IconIndex>828</IconIndex>
 		<AccessRights>PATIENT_PROCEDURE</AccessRights>
@@ -215,7 +215,7 @@
 			<Tag>examinations_no_equipment</Tag>
 			<Tag>examinations_basic_equipment</Tag>
 			<Tag>specialized_office</Tag>
-			<Tag>plas_office</Tag>
+			<Tag>psyc_office</Tag>
 			<Tag>any_inpatient_office</Tag>
 			<Tag>any_office</Tag>
 			<Tag>emergency_doctors_office</Tag>
@@ -230,8 +230,8 @@
 	</GameDBRoomType>
 
 
-	<GameDBRoomType ID="DLC_ROOM_TYPE_CAFETERIA">
-		<AbbreviationLocID>DLC_ROOM_TYPE_CAFETERIA_DESCRIPTION</AbbreviationLocID>
+	<GameDBRoomType ID="DLC_ROOM_TYPE_DINING_HALL">
+		<AbbreviationLocID>DLC_ROOM_TYPE_DINING_HALL</AbbreviationLocID>
 		<TextureID>353</TextureID>
 		<IconIndex>2540</IconIndex>
 		<AccessRights>PATIENT</AccessRights>
@@ -332,7 +332,6 @@
 			<Tag>hospitalization_normal</Tag>
 			<!--  for showing patient counts in low/high in management  -->
 			<Tag>ward</Tag>
-			<Tag>receipt</Tag>
 		</Tags>
 		<MinWidth>3</MinWidth>
 		<MinHeight>4</MinHeight>
