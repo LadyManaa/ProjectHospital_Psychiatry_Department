@@ -1,18 +1,73 @@
 <Database>
-    <GameDBStringTable ID="LOC_EN_ADDON_GYNECOLOGIE_DIAGNOSES">
+    <GameDBStringTable ID="LOC_EN_ADDON_PSYCHIATRY_DIAGNOSES">
         <LanguageCode>en</LanguageCode>
         <LanguageNameLocalized>English</LanguageNameLocalized>
         <Contributors>
             <Name>Iris</Name>
         </Contributors>
         <LocalizedStrings>
-            <GameDBLocalizedString>
-                <LocID>DIA_PSYC_IRM_SHIZO</LocID>
-                <Text>Schizophrenia</Text>
+
+                    <GameDBLocalizedString>
+                <LocID>DIA_PSYC_AGORAPHOBIA</LocID>
+                <Text>Agoraphobia</Text>
             </GameDBLocalizedString>
             <GameDBLocalizedString>
-                <LocID>DIA_PSYC_IRM_TRANS</LocID>
-                <Text>Gender incongruence</Text>
+                <LocID>DIA_PSYC_AGORAPHOBIA_DESC</LocID>
+                <Text>Agoraphobia refers to a fear of the outside world and is the most common form of anxiety disorder. A patient suffering from this disorder fears situations from which they cannot escape or even believes they are losing control of themselves.</Text>
+            </GameDBLocalizedString>
+
+                        <GameDBLocalizedString>
+                <LocID>DIA_PSYC_GEN_ANXIETY</LocID>
+                <Text>Anxiety</Text>
+            </GameDBLocalizedString>
+            <GameDBLocalizedString>
+                <LocID>DIA_PSYC_GEN_ANXIETY_DESC</LocID>
+                <Text>Anxiety disorder is a specific type of anxiety disorder characterised by anxiety that has taken on a life of its own.</Text>
+            </GameDBLocalizedString>
+
+                        <GameDBLocalizedString>
+                <LocID>DIA_PSYC_PANIC</LocID>
+                <Text>Panic disorder</Text>
+            </GameDBLocalizedString>
+            <GameDBLocalizedString>
+                <LocID>DIA_PSYC_PANIC_DESC</LocID>
+                <Text>A panic disorder is a type of anxiety disorder characterised by recurrent panic attacks and often occurs in conjunction with agoraphobia.</Text>
+            </GameDBLocalizedString>
+
+                        <GameDBLocalizedString>
+                <LocID>DIA_PSYC_CPTSD</LocID>
+                <Text>Complex post-traumatic stress disorder</Text>
+            </GameDBLocalizedString>
+            <GameDBLocalizedString>
+                <LocID>DIA_PSYC_CPTSD_DESC</LocID>
+                <Text>Complex post-traumatic stress disorder (cPTSD) is a mental health condition that goes beyond the core symptoms of classic PTSD (flashbacks, avoidance, hyperarousal) and is additionally characterised by persistent difficulties with emotional regulation, a negative self-concept and interpersonal difficulties.</Text>
+            </GameDBLocalizedString>
+
+                        <GameDBLocalizedString>
+                <LocID>DIA_BI_POLAR</LocID>
+                <Text>Bipolar disorders</Text>
+            </GameDBLocalizedString>
+            <GameDBLocalizedString>
+                <LocID>DIA_BI_POLAR_DESC</LocID>
+                <Text>Bipolar disorders are mental disorders and fall under the category of mood disorders. They are characterised by alternating episodes of depression and mania.</Text>
+            </GameDBLocalizedString>
+
+            <GameDBLocalizedString>
+                <LocID>DIA_SINGLE_EPI_DEP_DIS</LocID>
+                <Text>Single episode depressive disorder</Text>
+            </GameDBLocalizedString>
+            <GameDBLocalizedString>
+                <LocID>DIA_SINGLE_EPI_DEP_DIS_DESC</LocID>
+                <Text>Single episode depressive disorder, moderate, without psychotic symptoms is diagnosed when the definitional requirements of a depressive episode have been met, there is no history of prior depressive episodes, the episode is of moderate severity, and there are no delusions or hallucinations during the episode.</Text>
+            </GameDBLocalizedString>
+
+            <GameDBLocalizedString>
+                <LocID>DIA_ADHD</LocID>
+                <Text>Attention-deficit/hyperactivity disorder</Text>
+            </GameDBLocalizedString>
+            <GameDBLocalizedString>
+                <LocID>DIA_ADHD_DESC</LocID>
+                <Text>Attention-deficit/hyperactivity disorder, or ADHD for short, is a neurobiological developmental disorder that primarily affects children and often persists into adulthood. Its symptoms include, amongst other things, difficulties concentrating, motor hyperactivity and increased impulsivity. Motor hyperactivity should be regarded as an optional symptom. The severity and intensity of the symptoms tend to decrease as the patient gets older.</Text>
             </GameDBLocalizedString>
 
         </LocalizedStrings>

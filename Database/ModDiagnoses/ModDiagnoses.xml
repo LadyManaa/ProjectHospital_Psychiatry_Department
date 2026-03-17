@@ -2,7 +2,7 @@
     <!-- Psyciatry Mod by iris -->
     <!-- TEMPLATE DIAGNOSIS 
 	<GameDBMedicalCondition ID="DIA_JM_AAAA">
-	<AbbreviationLocID>DIA_JM_AAAA_DESCRIPTION</AbbreviationLocID>
+	<AbbreviationLocID>DIA_JM_AAAA_DESC</AbbreviationLocID>
 	<Duration>0</Duration>
 	<OccurrenceRef>OCCURRENCE_OR_UNCOMMON</OccurrenceRef>
 	<Symptoms>
@@ -42,84 +42,447 @@
 		
     <Tags>
         <Tag>disease</Tag>
-    </Tags>
-    </GameDBMedicalCondition>
-	^^^ STOP COPY HERE -->
-<!--
-    <GameDBMedicalCondition ID="DIA_PSYC_IRM_TRANS">
-        <AbbreviationLocID>DIA_PSYC_IRM_TRANS_DESCRIPTION</AbbreviationLocID>
-        <Duration>0</Duration>
-        <OccurrenceRef>OCCURRENCE_COMMON</OccurrenceRef>
-        <Symptoms>
-            <GameDBSymptomRules>
-                <ProbabilityPercent>100</ProbabilityPercent>
-                <GameDBSymptomRef>SYM_PSYC_DYSHYMIA</GameDBSymptomRef>
-            </GameDBSymptomRules>
-            <GameDBSymptomRules>
-                <ProbabilityPercent>80</ProbabilityPercent>
-                <GameDBSymptomRef>SYM_PSYC_ECHOLALIA</GameDBSymptomRef>
-            </GameDBSymptomRules>
-        </Symptoms>
-        <Examinations>
-            <ExaminationRef>EXM_INTERVIEW</ExaminationRef>
-            <ExaminationRef>EXM_PHYSICAL_AND_VISUAL_EXAMINATION</ExaminationRef>
-            <ExaminationRef>EXM_DIFFERENTIAL_DIAGNOSIS</ExaminationRef>
-        </Examinations>
-
-        <Treatments>
-            <TreatmentRef>TRT_IRM_CRISIS_INT</TreatmentRef>
-        </Treatments>
-
-        <DepartmentRef>DPT_PSYCHIATRY</DepartmentRef>
-        <InsurancePayment>0</InsurancePayment>
-
-        <IconIndex>1</IconIndex>
-        <Tags>
-            <Tag>disease</Tag>
-            <Tag>clinic</Tag>
-        </Tags>
-    </GameDBMedicalCondition>
--->
-
-    	<GameDBMedicalCondition ID="DIA_PSYC_IRM_SHIZO">
-	<AbbreviationLocID>DIA_PSYC_IRM_SHIZO_DESCRIPTION</AbbreviationLocID>
-	<Duration>0</Duration>
-	<OccurrenceRef>OCCURRENCE_PSYC_COMMON</OccurrenceRef>
-	<Symptoms>
-        <GameDBSymptomRules>
-            <ProbabilityPercent>100</ProbabilityPercent>
-            <GameDBSymptomRef>SYM_PSYC_ABULIA</GameDBSymptomRef>
-        </GameDBSymptomRules>
-		
-		<GameDBSymptomRules>
-            <ProbabilityPercent>80</ProbabilityPercent>
-            <GameDBSymptomRef>SYM_PSYC_FLAT_AFFECT</GameDBSymptomRef>
-        </GameDBSymptomRules>
-    
-    </Symptoms>
-	
-    <Examinations>
-        <ExaminationRef>EXM_INTERVIEW</ExaminationRef>
-		<ExaminationRef>EXM_PHYSICAL_AND_VISUAL_EXAMINATION</ExaminationRef>
-		<ExaminationRef>EXM_DIFFERENTIAL_DIAGNOSIS</ExaminationRef>
-    </Examinations>
-		
-    <Treatments>
-		<TreatmentRef>TRT_IRM_CRISIS_INT</TreatmentRef>
-    </Treatments>
-		
-    <DepartmentRef>DPT_PSYCHIATRY</DepartmentRef>
-    <InsurancePayment>0</InsurancePayment>
-		
-	<IconIndex>1</IconIndex>
-	
-	<CustomIconBigAssetRef>ASSET_OR_DIA_ICON001_LARGE</CustomIconBigAssetRef>
-    <CustomIconSmallAssetRef>ASSET_OR_DIA_ICON001_SMALL</CustomIconSmallAssetRef>
-		
-    <Tags>
-        <Tag>disease</Tag>
         <Tag>clinic</Tag>
     </Tags>
     </GameDBMedicalCondition>
+	^^^ STOP COPY HERE -->
 
-</Database>
+    <!-- 
+           TO-DO: Add:
+            Fearfullness
+            [[Excessive Worry]]
+            [[Globus Sensation]]
+            [[Latah]]
+            [[Night Terrors]]
+            [[Xenophobia]]
+           <GameDBSymptomRules>
+                <ProbabilityPercent>100</ProbabilityPercent>
+                <GameDBSymptomRef>MAINSYMPTOM</GameDBSymptomRef>
+            </GameDBSymptomRules>
+-->
+
+    <GameDBMedicalCondition ID="DIA_PSYC_AGORAPHOBIA">
+        <AbbreviationLocID>DIA_PSYC_AGORAPHOBIA_DESC</AbbreviationLocID>
+        <Duration>0</Duration>
+        <OccurrenceRef>OCCURRENCE_PSYC_UNLIKELY</OccurrenceRef>
+        <Symptoms>
+
+            <GameDBSymptomRules>
+                <ProbabilityPercent>100</ProbabilityPercent>
+                <GameDBSymptomRef>SYM_PSYC_ANXIETY</GameDBSymptomRef>
+            </GameDBSymptomRules>
+
+
+
+            <Examinations>
+                <ExaminationRef>EXM_INTERVIEW</ExaminationRef>
+                <ExaminationRef>EXM_PSYCHIATRIC_INTERVIEW</ExaminationRef>
+                <ExaminationRef>EXM_SLEEP_STUDY</ExaminationRef>
+            </Examinations>
+
+            <Treatments>
+                <TreatmentRef>TRT_HOSPITALIZATION_NORMAL</TreatmentRef>
+                <TreatmentRef>TRT_IRM_CBT</TreatmentRef>
+                <TreatmentRef>TRT_IRM_ET</TreatmentRef>
+                <TreatmentRef>TRT_IRM_BENZ_DRUGS</TreatmentRef>
+                <TreatmentRef>TRT_IRM_SSNRI_DRUGS</TreatmentRef>
+                <TreatmentRef>TRT_IRM_OT</TreatmentRef>
+            </Treatments>
+
+            <DepartmentRef>DPT_PSYCHIATRY</DepartmentRef>
+            <InsurancePayment>2250</InsurancePayment>
+
+            <IconIndex>1</IconIndex>
+
+            <CustomIconBigAssetRef>ASSET_OR_DIA_ICON001_LARGE</CustomIconBigAssetRef>
+            <CustomIconSmallAssetRef>ASSET_OR_DIA_ICON001_SMALL</CustomIconSmallAssetRef>
+
+            <Tags>
+                <Tag>disease</Tag>
+                <Tag>clinic</Tag>
+            </Tags>
+        </GameDBMedicalCondition>
+        <!-- 
+           TO-DO: Add:
+            [[Excessive Worry]]
+            [[Fearfulness]]
+            [[Globus Sensation]]
+            [[Isolation]]
+            [[Paranoia]]
+            [[Xenophobia]]
+           <GameDBSymptomRules>
+                <ProbabilityPercent>100</ProbabilityPercent>
+                <GameDBSymptomRef>MAINSYMPTOM</GameDBSymptomRef>
+            </GameDBSymptomRules>
+-->
+        <GameDBMedicalCondition ID="DIA_PSYC_GEN_ANXIETY">
+            <AbbreviationLocID>DIA_PSYC_GEN_ANXIETY_DESC</AbbreviationLocID>
+            <Duration>0</Duration>
+            <OccurrenceRef>OCCURRENCE_PSYC_UNLIKELY</OccurrenceRef>
+            <Symptoms>
+                <GameDBSymptomRules>
+                    <ProbabilityPercent>100</ProbabilityPercent>
+                    <GameDBSymptomRef>SYM_PSYC_ANXIETY</GameDBSymptomRef>
+                </GameDBSymptomRules>
+
+                <GameDBSymptomRules>
+                    <ProbabilityPercent>70</ProbabilityPercent>
+                    <GameDBSymptomRef>SYM_PSYC_ALEXITHYMIA</GameDBSymptomRef>
+                </GameDBSymptomRules>
+
+                <GameDBSymptomRules>
+                    <ProbabilityPercent>50</ProbabilityPercent>
+                    <GameDBSymptomRef>SYM_PSYC_BURNOUT</GameDBSymptomRef>
+                </GameDBSymptomRules>
+
+                <GameDBSymptomRules>
+                    <ProbabilityPercent>40</ProbabilityPercent>
+                    <GameDBSymptomRef>SYM_PSYC_BRUXISM</GameDBSymptomRef>
+                </GameDBSymptomRules>
+            </Symptoms>
+
+            <Examinations>
+                <ExaminationRef>EXM_INTERVIEW</ExaminationRef>
+                <ExaminationRef>EXM_PSYCHIATRIC_INTERVIEW</ExaminationRef>
+                <ExaminationRef>EXM_BEHAVIORAL_OBSERVATION</ExaminationRef>
+                <ExaminationRef>EXM_PSYCHIATRIC_INTERVIEW</ExaminationRef>
+            </Examinations>
+
+            <Treatments>
+                <TreatmentRef>TRT_IRM_MOOD_STABILIZERS_DRUGS</TreatmentRef>
+                <TreatmentRef>TRT_IRM_SSNRI_DRUGS</TreatmentRef>
+                <TreatmentRef>TRT_IRM_CBT</TreatmentRef>
+            </Treatments>
+
+            <DepartmentRef>DPT_PSYCHIATRY</DepartmentRef>
+            <InsurancePayment>500</InsurancePayment>
+
+            <IconIndex>1</IconIndex>
+
+            <CustomIconBigAssetRef>ASSET_OR_DIA_ICON001_LARGE</CustomIconBigAssetRef>
+            <CustomIconSmallAssetRef>ASSET_OR_DIA_ICON001_SMALL</CustomIconSmallAssetRef>
+
+            <Tags>
+                <Tag>disease</Tag>
+                <Tag>clinic</Tag>
+            </Tags>
+        </GameDBMedicalCondition>
+
+        <!-- 
+           TO-DO: Add:
+            [[Fearfulness]]
+            [[Globus Sensation]]
+            [[Isolation]]
+            [[Paranoia]]
+            [[Thought Withdrawal]]
+           <GameDBSymptomRules>
+                <ProbabilityPercent>100</ProbabilityPercent>
+                <GameDBSymptomRef>MAINSYMPTOM</GameDBSymptomRef>
+            </GameDBSymptomRules>
+-->
+        <GameDBMedicalCondition ID="DIA_PSYC_PANIC">
+            <AbbreviationLocID>DIA_PSYC_PANIC_DESC</AbbreviationLocID>
+            <Duration>0</Duration>
+            <OccurrenceRef>OCCURRENCE_PSYC_UNLIKELY</OccurrenceRef>
+            <Symptoms>
+                <GameDBSymptomRules>
+                    <ProbabilityPercent>100</ProbabilityPercent>
+                    <GameDBSymptomRef>SYM_PSYC_ANXIETY</GameDBSymptomRef>
+                </GameDBSymptomRules>
+
+                <GameDBSymptomRules>
+                    <ProbabilityPercent>90</ProbabilityPercent>
+                    <GameDBSymptomRef>SYM_AFFECTIVE_INSTABILITY</GameDBSymptomRef>
+                </GameDBSymptomRules>
+
+            </Symptoms>
+
+            <Examinations>
+                <ExaminationRef>EXM_INTERVIEW</ExaminationRef>
+                <ExaminationRef>EXM_PSYCHIATRIC_INTERVIEW</ExaminationRef>
+            </Examinations>
+
+            <Treatments>
+                <TreatmentRef>TRT_IRM_CRISIS_INT</TreatmentRef>
+                <TreatmentRef>TRT_IRM_MOOD_STABILIZERS_DRUGS</TreatmentRef>
+                <TreatmentRef>TRT_IRM_SSNRI_DRUGS</TreatmentRef>
+                <TreatmentRef>TRT_IRM_OT</TreatmentRef>
+                <TreatmentRef>TRT_IRM_ET</TreatmentRef>
+                <TreatmentRef>TRT_IRM_CBT</TreatmentRef>
+            </Treatments>
+
+            <DepartmentRef>DPT_PSYCHIATRY</DepartmentRef>
+            <InsurancePayment>2951</InsurancePayment>
+
+            <IconIndex>1</IconIndex>
+
+            <CustomIconBigAssetRef>ASSET_OR_DIA_ICON001_LARGE</CustomIconBigAssetRef>
+            <CustomIconSmallAssetRef>ASSET_OR_DIA_ICON001_SMALL</CustomIconSmallAssetRef>
+
+            <Tags>
+                <Tag>disease</Tag>
+                <Tag>clinic</Tag>
+            </Tags>
+        </GameDBMedicalCondition>
+
+        <GameDBMedicalCondition ID="DIA_PSYC_CPTSD">
+            <AbbreviationLocID>DIA_PSYC_CPTSD_DESC</AbbreviationLocID>
+            <Duration>0</Duration>
+            <OccurrenceRef>OCCURRENCE_PSYC_VERYRARE</OccurrenceRef>
+            <Symptoms>
+                <GameDBSymptomRules>
+                    <ProbabilityPercent>100</ProbabilityPercent>
+                    <GameDBSymptomRef>SYM_PSYC_ALEXITHYMIA</GameDBSymptomRef>
+                </GameDBSymptomRules>
+
+                <GameDBSymptomRules>
+                    <ProbabilityPercent>90</ProbabilityPercent>
+                    <GameDBSymptomRef>SYM_PSYC_AMNESIA</GameDBSymptomRef>
+                </GameDBSymptomRules>
+
+                <GameDBSymptomRules>
+                    <ProbabilityPercent>70</ProbabilityPercent>
+                    <GameDBSymptomRef>SYM_PSYC_AVOIDANCE_BEHAVOIR</GameDBSymptomRef>
+                </GameDBSymptomRules>
+
+                <GameDBSymptomRules>
+                    <ProbabilityPercent>30</ProbabilityPercent>
+                    <GameDBSymptomRef>SYM_PSYC_AUDITORY_HALLUCINATIONS</GameDBSymptomRef>
+                </GameDBSymptomRules>
+
+            </Symptoms>
+
+            <Examinations>
+                <ExaminationRef>EXM_INTERVIEW</ExaminationRef>
+                <ExaminationRef>EXM_PSYCHIATRIC_INTERVIEW</ExaminationRef>
+                <ExaminationRef>EXM_BEHAVIORAL_OBSERVATION</ExaminationRef>
+            </Examinations>
+
+            <Treatments>
+                <TreatmentRef>TRT_IRM_MOOD_STABILIZERS_DRUGS</TreatmentRef>
+                <TreatmentRef>TRT_IRM_SSNRI_DRUGS</TreatmentRef>
+                <TreatmentRef>TRT_IRM_BENZ_DRUGS</TreatmentRef>
+                <TreatmentRef>TRT_IRM_CBT</TreatmentRef>
+                <TreatmentRef>TRT_IRM_DBT</TreatmentRef>
+                <TreatmentRef>TRT_IRM_ET</TreatmentRef>
+                <TreatmentRef>TRT_IRM_OT</TreatmentRef>
+            </Treatments>
+
+            <DepartmentRef>DPT_PSYCHIATRY</DepartmentRef>
+            <InsurancePayment>4500</InsurancePayment>
+
+            <IconIndex>1</IconIndex>
+
+            <CustomIconBigAssetRef>ASSET_OR_DIA_ICON001_LARGE</CustomIconBigAssetRef>
+            <CustomIconSmallAssetRef>ASSET_OR_DIA_ICON001_SMALL</CustomIconSmallAssetRef>
+
+            <Tags>
+                <Tag>disease</Tag>
+                <Tag>clinic</Tag>
+            </Tags>
+        </GameDBMedicalCondition>
+
+        <GameDBMedicalCondition ID="DIA_BI_POLAR">
+            <AbbreviationLocID>DIA_BI_POLAR_DESC</AbbreviationLocID>
+            <Duration>0</Duration>
+            <OccurrenceRef>OCCURRENCE_PSYC_VERYRARE</OccurrenceRef>
+            <Symptoms>
+                <GameDBSymptomRules>
+                    <ProbabilityPercent>100</ProbabilityPercent>
+                    <GameDBSymptomRef>SYM_PSYC_CYCLOTHYMIA</GameDBSymptomRef>
+                </GameDBSymptomRules>
+
+                <GameDBSymptomRules>
+                    <ProbabilityPercent>80</ProbabilityPercent>
+                    <GameDBSymptomRef>SYM_PSYC_ANHEDONIA</GameDBSymptomRef>
+                </GameDBSymptomRules>
+
+                <GameDBSymptomRules>
+                    <ProbabilityPercent>80</ProbabilityPercent>
+                    <GameDBSymptomRef>SYM_PSYC_AGITATION</GameDBSymptomRef>
+                </GameDBSymptomRules>
+            </Symptoms>
+
+            <Examinations>
+                <ExaminationRef>EXM_INTERVIEW</ExaminationRef>
+                <ExaminationRef>EXM_PSYCHIATRIC_INTERVIEW</ExaminationRef>
+                <ExaminationRef>EXM_BEHAVIORAL_OBSERVATION</ExaminationRef>
+            </Examinations>
+
+            <Treatments>
+                <TreatmentRef>TRT_IRM_CRISIS_INT</TreatmentRef>
+                <TreatmentRef>TRT_IRM_MOOD_STABILIZERS_DRUGS</TreatmentRef>
+                <TreatmentRef>TRT_IRM_SSNRI_DRUGS</TreatmentRef>
+                <TreatmentRef>TRT_IRM_OT</TreatmentRef>
+                <TreatmentRef>TRT_IRM_ET</TreatmentRef>
+                <TreatmentRef>TRT_IRM_CBT</TreatmentRef>
+            </Treatments>
+
+            <DepartmentRef>DPT_PSYCHIATRY</DepartmentRef>
+            <InsurancePayment>2900</InsurancePayment>
+
+            <IconIndex>1</IconIndex>
+
+            <CustomIconBigAssetRef>ASSET_OR_DIA_ICON001_LARGE</CustomIconBigAssetRef>
+            <CustomIconSmallAssetRef>ASSET_OR_DIA_ICON001_SMALL</CustomIconSmallAssetRef>
+
+            <Tags>
+                <Tag>disease</Tag>
+                <Tag>clinic</Tag>
+            </Tags>
+        </GameDBMedicalCondition>
+
+        <GameDBMedicalCondition ID="DIA_SINGLE_EPI_DEP_DIS">
+            <AbbreviationLocID>DIA_SINGLE_EPI_DEP_DIS_DESC</AbbreviationLocID>
+            <Duration>0</Duration>
+            <OccurrenceRef>OCCURRENCE_PSYC_COMMON</OccurrenceRef>
+            <Symptoms>
+                <GameDBSymptomRules>
+                    <ProbabilityPercent>100</ProbabilityPercent>
+                    <GameDBSymptomRef>SYM_PSYC_ANHEDONIA</GameDBSymptomRef>
+                </GameDBSymptomRules>
+
+                <GameDBSymptomRules>
+                    <ProbabilityPercent>90</ProbabilityPercent>
+                    <GameDBSymptomRef>SYM_PSYC_ABULIA</GameDBSymptomRef>
+                </GameDBSymptomRules>
+
+                <GameDBSymptomRules>
+                    <ProbabilityPercent>90</ProbabilityPercent>
+                    <GameDBSymptomRef>SYM_PSYC_DEPRESSED_MOOD</GameDBSymptomRef>
+                </GameDBSymptomRules>
+
+                <GameDBSymptomRules>
+                    <ProbabilityPercent>50</ProbabilityPercent>
+                    <GameDBSymptomRef>SYM_PSYC_DYSPHORIA</GameDBSymptomRef>
+                </GameDBSymptomRules>
+
+                <GameDBSymptomRules>
+                    <ProbabilityPercent>30</ProbabilityPercent>
+                    <GameDBSymptomRef>SYM_PSYC_BLUNTED_AFFECT</GameDBSymptomRef>
+                </GameDBSymptomRules>
+
+                <GameDBSymptomRules>
+                    <ProbabilityPercent>45</ProbabilityPercent>
+                    <GameDBSymptomRef>SYM_PSYC_BURNOUT</GameDBSymptomRef>
+                </GameDBSymptomRules>
+
+                <GameDBSymptomRules>
+                    <ProbabilityPercent>35</ProbabilityPercent>
+                    <GameDBSymptomRef>SYM_PSYC_COGNITIVE_IMPAIRMENT_FUNC</GameDBSymptomRef>
+                </GameDBSymptomRules>
+
+                <GameDBSymptomRules>
+                    <ProbabilityPercent>30</ProbabilityPercent>
+                    <GameDBSymptomRef>SYM_PSYC_BLUNTED_AFFECT</GameDBSymptomRef>
+                </GameDBSymptomRules>
+            </Symptoms>
+
+            <Examinations>
+                <ExaminationRef>EXM_INTERVIEW</ExaminationRef>
+                <ExaminationRef>EXM_PSYCHIATRIC_INTERVIEW</ExaminationRef>
+                <ExaminationRef>EXM_COGNITIVE_ASSESSMENT</ExaminationRef>
+            </Examinations>
+
+            <Treatments>
+                <TreatmentRef>TRT_IRM_SSNRI_DRUGS</TreatmentRef>
+                <TreatmentRef>TRT_IRM_SSNRI_DRUGS</TreatmentRef>
+                <TreatmentRef>TRT_IRM_SSNRI_DRUGS</TreatmentRef>
+            </Treatments>
+
+            <DepartmentRef>DPT_PSYCHIATRY</DepartmentRef>
+            <InsurancePayment>450</InsurancePayment>
+
+            <IconIndex>1</IconIndex>
+
+            <CustomIconBigAssetRef>ASSET_OR_DIA_ICON001_LARGE</CustomIconBigAssetRef>
+            <CustomIconSmallAssetRef>ASSET_OR_DIA_ICON001_SMALL</CustomIconSmallAssetRef>
+
+            <Tags>
+                <Tag>disease</Tag>
+                <Tag>clinic</Tag>
+            </Tags>
+        </GameDBMedicalCondition>
+
+        <GameDBMedicalCondition ID="DIA_ADHD">
+            <AbbreviationLocID>DIA_ADHD_DESC</AbbreviationLocID>
+            <Duration>0</Duration>
+            <OccurrenceRef>OCCURRENCE_PSYC_VERYRARE</OccurrenceRef>
+            <Symptoms>
+                <GameDBSymptomRules>
+                    <ProbabilityPercent>100</ProbabilityPercent>
+                    <GameDBSymptomRef>SYM_PSYC_AKATHISIA</GameDBSymptomRef>
+                </GameDBSymptomRules>
+
+                <GameDBSymptomRules>
+                    <ProbabilityPercent>60</ProbabilityPercent>
+                    <GameDBSymptomRef>SYM_PSYC_ANXIETY</GameDBSymptomRef>
+                </GameDBSymptomRules>
+            </Symptoms>
+
+            <Examinations>
+                <ExaminationRef>EXM_INTERVIEW</ExaminationRef>
+                <ExaminationRef>EXM_PSYCHIATRIC_INTERVIEW</ExaminationRef>
+                <ExaminationRef>EXM_COGNITIVE_ASSESSMENT</ExaminationRef>
+            </Examinations>
+
+            <Treatments>
+                <TreatmentRef>TRT_IRM_MPH_DRUGS</TreatmentRef>
+            </Treatments>
+
+            <DepartmentRef>DPT_PSYCHIATRY</DepartmentRef>
+            <InsurancePayment>650</InsurancePayment>
+
+            <IconIndex>1</IconIndex>
+
+            <CustomIconBigAssetRef>ASSET_OR_DIA_ICON001_LARGE</CustomIconBigAssetRef>
+            <CustomIconSmallAssetRef>ASSET_OR_DIA_ICON001_SMALL</CustomIconSmallAssetRef>
+
+            <Tags>
+                <Tag>disease</Tag>
+                <Tag>clinic</Tag>
+            </Tags>
+        </GameDBMedicalCondition>
+
+        <GameDBMedicalCondition ID="DIA_PSYC_IRM_SHIZO">
+            <AbbreviationLocID>DIA_PSYC_IRM_SHIZO_DESCRIPTION</AbbreviationLocID>
+            <Duration>0</Duration>
+            <OccurrenceRef>OCCURRENCE_PSYC_COMMON</OccurrenceRef>
+            <Symptoms>
+                <GameDBSymptomRules>
+                    <ProbabilityPercent>100</ProbabilityPercent>
+                    <GameDBSymptomRef>SYM_PSYC_ABULIA</GameDBSymptomRef>
+                </GameDBSymptomRules>
+
+                <GameDBSymptomRules>
+                    <ProbabilityPercent>80</ProbabilityPercent>
+                    <GameDBSymptomRef>SYM_PSYC_FLAT_AFFECT</GameDBSymptomRef>
+                </GameDBSymptomRules>
+
+            </Symptoms>
+
+            <Examinations>
+                <ExaminationRef>EXM_INTERVIEW</ExaminationRef>
+                <ExaminationRef>EXM_PHYSICAL_AND_VISUAL_EXAMINATION</ExaminationRef>
+                <ExaminationRef>EXM_DIFFERENTIAL_DIAGNOSIS</ExaminationRef>
+            </Examinations>
+
+            <Treatments>
+                <TreatmentRef>TRT_IRM_CRISIS_INT</TreatmentRef>
+            </Treatments>
+
+            <DepartmentRef>DPT_PSYCHIATRY</DepartmentRef>
+            <InsurancePayment>2250</InsurancePayment>
+
+            <IconIndex>1</IconIndex>
+
+            <CustomIconBigAssetRef>ASSET_OR_DIA_ICON001_LARGE</CustomIconBigAssetRef>
+            <CustomIconSmallAssetRef>ASSET_OR_DIA_ICON001_SMALL</CustomIconSmallAssetRef>
+
+            <Tags>
+                <Tag>disease</Tag>
+                <Tag>clinic</Tag>
+            </Tags>
+        </GameDBMedicalCondition>
+
+    </Database>
