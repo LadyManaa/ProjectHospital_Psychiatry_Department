@@ -11,7 +11,7 @@
 -->
 		<ExtraLevelingPercent>100</ExtraLevelingPercent>
 	</GameDBSkill>
-
+<!--
 	<GameDBSkill ID="SKILL_DOC_SPEC_PSYC_SURGERY">
 		<AbbreviationLocID>SKILL_DOC_SPEC_PSYC_SURGERY_DESCR</AbbreviationLocID>
 		<ParentSkill>SKILL_DOC_QUALIF_GENERAL_MEDICINE</ParentSkill>
@@ -20,6 +20,7 @@
 
 		<ExtraLevelingPercent>50</ExtraLevelingPercent>
 	</GameDBSkill>
+	-->
 <!--
 	<GameDBSkill ID="SKILL_NURSE_SPEC_PSYC">
 		<AbbreviationLocID>SKILL_NURSE_SPEC_PSYC_DESCR</AbbreviationLocID>

@@ -1,0 +1,21 @@
+<Database>
+    <GameDBStringTable ID="ADDON_MOD_PSYDEP">
+        <LanguageCode>en</LanguageCode>
+        <LanguageNameLocalized>English</LanguageNameLocalized>
+        <Contributors>
+            <Name>Iris</Name>
+        </Contributors>
+        <LocalizedStrings>
+            <GameDBLocalizedString>
+                <LocID>SKILL_DOC_SPEC_PSYC</LocID>
+                <Text>Psychiatrist</Text>
+            </GameDBLocalizedString>
+            <GameDBLocalizedString>
+                <LocID>SKILL_DOC_SPEC_PSYC_DESCR</LocID>
+                <Text>A psychiatrist is a physician who specializes in psychiatry.</Text>
+            </GameDBLocalizedString>
+
+
+        </LocalizedStrings>
+    </GameDBStringTable>
+</Database>
