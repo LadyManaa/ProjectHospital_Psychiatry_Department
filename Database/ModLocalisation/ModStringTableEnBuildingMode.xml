@@ -1,8 +1,8 @@
 <Database>
-    <GameDBStringTable ID="LOC_EN_ADDON_GYNECOLOGIE_BUILDING_MODE">
+    <GameDBStringTable ID="LOC_EN_ADDON_PSYCHIATRY_BUILDING_MODE">
 
         <LanguageCode>en</LanguageCode>
-		<LanguageNameLocalized>English</LanguageNameLocalized>
+        <LanguageNameLocalized>English</LanguageNameLocalized>
 
         <Contributors>
             <Name>Iris</Name>
@@ -10,11 +10,26 @@
 
         <LocalizedStrings>
 
-		<GameDBLocalizedString>	<LocID>ROOM_TYPE_PSYC_OFFICE</LocID>							<Text>Psychiatry office</Text>	</GameDBLocalizedString>
-		<GameDBLocalizedString>	<LocID>ROOM_TYPE_THEP_OFFICE</LocID>				<Text>Therapy Room</Text>	</GameDBLocalizedString>
-		<GameDBLocalizedString>	<LocID>ROOM_TYPE_INPATIENT_PSYC_OFFICE</LocID>				<Text>Inpatient Psychiatry office</Text>	</GameDBLocalizedString>
-		<GameDBLocalizedString>	<LocID>DLC_ROOM_TYPE_DINING_HALL</LocID>	<Text>Dining Hall</Text>	</GameDBLocalizedString>
-		<GameDBLocalizedString>	<LocID>ROOM_TYPE_INPATIENT_BEDROOM</LocID>								<Text>Patients Bedroom</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>
+                <LocID>ROOM_TYPE_PSYC_OFFICE</LocID>
+                <Text>Psychiatry office</Text>
+            </GameDBLocalizedString>
+            <GameDBLocalizedString>
+                <LocID>ROOM_TYPE_THEP_OFFICE</LocID>
+                <Text>Therapy Room</Text>
+            </GameDBLocalizedString>
+            <GameDBLocalizedString>
+                <LocID>ROOM_TYPE_INPATIENT_PSYC_OFFICE</LocID>
+                <Text>Inpatient Psychiatry office</Text>
+            </GameDBLocalizedString>
+            <GameDBLocalizedString>
+                <LocID>DLC_ROOM_TYPE_DINING_HALL</LocID>
+                <Text>Dining Hall</Text>
+            </GameDBLocalizedString>
+            <GameDBLocalizedString>
+                <LocID>ROOM_TYPE_INPATIENT_BEDROOM</LocID>
+                <Text>Patients Bedroom</Text>
+            </GameDBLocalizedString>
 
         </LocalizedStrings>
     </GameDBStringTable>

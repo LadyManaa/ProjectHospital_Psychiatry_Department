@@ -1,5 +1,5 @@
 ﻿<Database>
-    <GameDBStringTable ID="LOC_EN_TREATMENTS">
+    <GameDBStringTable ID="LOC_EN_ADDON_PSYCHIATRY_TREATMENTS">
 
         <LanguageCode>en</LanguageCode>
         <LanguageNameLocalized>English</LanguageNameLocalized>

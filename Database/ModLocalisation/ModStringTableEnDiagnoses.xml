@@ -7,7 +7,7 @@
         </Contributors>
         <LocalizedStrings>
 
-                    <GameDBLocalizedString>
+            <GameDBLocalizedString>
                 <LocID>DIA_PSYC_AGORAPHOBIA</LocID>
                 <Text>Agoraphobia</Text>
             </GameDBLocalizedString>
@@ -16,7 +16,7 @@
                 <Text>Agoraphobia refers to a fear of the outside world and is the most common form of anxiety disorder. A patient suffering from this disorder fears situations from which they cannot escape or even believes they are losing control of themselves.</Text>
             </GameDBLocalizedString>
 
-                        <GameDBLocalizedString>
+            <GameDBLocalizedString>
                 <LocID>DIA_PSYC_GEN_ANXIETY</LocID>
                 <Text>Anxiety</Text>
             </GameDBLocalizedString>
@@ -25,7 +25,7 @@
                 <Text>Anxiety disorder is a specific type of anxiety disorder characterised by anxiety that has taken on a life of its own.</Text>
             </GameDBLocalizedString>
 
-                        <GameDBLocalizedString>
+            <GameDBLocalizedString>
                 <LocID>DIA_PSYC_PANIC</LocID>
                 <Text>Panic disorder</Text>
             </GameDBLocalizedString>
@@ -34,7 +34,7 @@
                 <Text>A panic disorder is a type of anxiety disorder characterised by recurrent panic attacks and often occurs in conjunction with agoraphobia.</Text>
             </GameDBLocalizedString>
 
-                        <GameDBLocalizedString>
+            <GameDBLocalizedString>
                 <LocID>DIA_PSYC_CPTSD</LocID>
                 <Text>Complex post-traumatic stress disorder</Text>
             </GameDBLocalizedString>
@@ -43,7 +43,7 @@
                 <Text>Complex post-traumatic stress disorder (cPTSD) is a mental health condition that goes beyond the core symptoms of classic PTSD (flashbacks, avoidance, hyperarousal) and is additionally characterised by persistent difficulties with emotional regulation, a negative self-concept and interpersonal difficulties.</Text>
             </GameDBLocalizedString>
 
-                        <GameDBLocalizedString>
+            <GameDBLocalizedString>
                 <LocID>DIA_BI_POLAR</LocID>
                 <Text>Bipolar disorders</Text>
             </GameDBLocalizedString>
