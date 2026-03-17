@@ -3,18 +3,13 @@
 
 
     <GameDBAsset ID="ASSET_psyc_dept_icon_0">
-        <Type>TEXTURE_OBJECTS</Type>
+        <Type>TEXTURE_CUSTOM_SPRITE</Type>
         <File>MOD_ROOT/assets/department/psyc_dept_icon_0.png</File>
     </GameDBAsset>
 
     <GameDBAsset ID="ASSET_psyc_dept_icon_1">
-        <Type>TEXTURE_OBJECTS</Type>
+        <Type>TEXTURE_CUSTOM_SPRITE</Type>
         <File>MOD_ROOT/assets/department/psyc_dept_icon_1.png</File>
-    </GameDBAsset>
-
-        <GameDBAsset ID="ASSET_psyc_dept_icon_2">
-        <Type>TEXTURE_OBJECTS</Type>
-        <File>MOD_ROOT/assets/department/psyc_dept_icon_2.png</File>
     </GameDBAsset>
 
 

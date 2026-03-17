@@ -19,9 +19,16 @@
             <SkillRef>SKILL_DOC_SPEC_PSYC_SURGERY</SkillRef>
         </SecondDoctorSpecializations>
 
-        <SurgerySpecialization>SKILL_DOC_SPEC_PSYC_PSYC</SurgerySpecialization>
+        <SurgerySpecialization>SKILL_DOC_SPEC_PSYC_SURGERY</SurgerySpecialization>
 
-         <CustomIcon_0_BigAssetRef>ASSET_TEST_DPT_ICON_0</CustomIcon_0_BigAssetRef>
+        <CustomIconAssetRef>ASSET_psyc_dept_icon_1</CustomIconAssetRef>
+        <CustomIcon_0_BigAssetRef>ASSET_psyc_dept_icon_1</CustomIcon_0_BigAssetRef>
+        <CustomIcon_1_DarkBackgroundAssetRef>ASSET_psyc_dept_icon_1</CustomIcon_1_DarkBackgroundAssetRef>
+        <CustomIcon_2_LightBackgroundAssetRef>ASSET_psyc_dept_icon_1</CustomIcon_2_LightBackgroundAssetRef>
+        <CustomIcon_3_GrayedOutAssetRef>ASSET_ONC_DPT_ICON_3</CustomIcon_3_GrayedOutAssetRef>
+        <CustomIcon_4_SmallDarkBackgroundAssetRef>ASSET_psyc_dept_icon_0</CustomIcon_4_SmallDarkBackgroundAssetRef>
+        <CustomIcon_5_SmallGrayedOutAssetRef>ASSET_psyc_dept_icon_0</CustomIcon_5_SmallGrayedOutAssetRef>
+        <CustomIcon_6_SmallLightBackgroundAssetRef>ASSET_psyc_dept_icon_1</CustomIcon_6_SmallLightBackgroundAssetRef>
 
         <!-- ### Rooms ### -->
         <!--Clinic-->

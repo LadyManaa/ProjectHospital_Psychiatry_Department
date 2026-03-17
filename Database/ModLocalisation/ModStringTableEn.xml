@@ -10,6 +10,10 @@
                 <LocID>ADDON_MOD_PSYDEP</LocID>
                 <Text>Psychiatry Department</Text>
             </GameDBLocalizedString>
+            <GameDBLocalizedString>
+                <LocID>DPT_PSYCHIATRY</LocID>
+                <Text>Psychiatry Department</Text>
+            </GameDBLocalizedString>
         </LocalizedStrings>
     </GameDBStringTable>
 </Database>
